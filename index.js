@@ -22,7 +22,7 @@ module.exports = function (opt) {
     try {
       var filePath = file.base;
       var fileCwd = file.cwd;
-      var fileName = gutil.replaceExtension(path.basename(file.path), "");
+      var fileName = gutil.replaceExtension(file.path, "");
 
       var relativeBase = path.relative(fileCwd, filePath);
       var relativePath = path.join(relativeBase, fileName);
