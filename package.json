@@ -29,9 +29,9 @@
     "javascript"
   ],
   "dependencies": {
-    "gulp-util": "~2.2.12",
+    "ect": "^0.5.9",
     "event-stream": "~3.1.0",
-    "path": "~0.4.9",
-    "ect": "~0.5.6"
+    "gulp-util": "^3.0.8",
+    "path": "~0.4.9"
   }
 }
